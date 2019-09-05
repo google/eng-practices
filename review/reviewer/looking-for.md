@@ -65,7 +65,7 @@ universe.
 Ask for unit, integration, or end-to-end
 tests as appropriate for the change. In general, tests should be added in the
 same CL as the production code unless the CL is handling an
-[emergency](../emergencies.shtml).
+[emergency](../emergencies.md).
 
 Make sure that the tests in the CL are correct, sensible, and useful. Tests do
 not test themselves, and we rarely write tests for our tests—a human must ensure
