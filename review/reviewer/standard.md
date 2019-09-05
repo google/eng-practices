@@ -1,6 +1,6 @@
 # The Standard of Code Review
 
-[TOC]
+
 
 The primary purpose of code review is to make sure that the overall
 code health of Google's code
