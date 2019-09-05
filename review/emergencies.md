@@ -49,7 +49,7 @@ it. For example:
     obligation.
 -   Your product will completely fail in the marketplace if not released by a
     certain date.
--   Some hardward manufacturers only ship new hardware once a year. If you miss
+-   Some hardware manufacturers only ship new hardware once a year. If you miss
     the deadline to submit code to them, that could be disastrous, depending on
     what type of code you’re trying to ship.
 
