@@ -1,6 +1,6 @@
 # Speed of Code Reviews
 
-[TOC]
+
 
 ## Why Should Code Reviews Be Fast? {#why}
 

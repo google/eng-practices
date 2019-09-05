@@ -10,7 +10,7 @@ At Google we use code review to maintain the quality of our code and products.
 This documentation is the canonical description of Google's code review
 processes and policies.
 
-[TOC]
+
 
 This page is an overview of our code review process. There are two other large
 documents that are a part of this guide:

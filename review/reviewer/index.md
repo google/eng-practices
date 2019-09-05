@@ -1,7 +1,5 @@
 # How to do a code review
 
-go/code-reviewer
-
 The pages in this section contain recommendations on the best way to do code
 reviews, based on long experience. All together they represent one complete
 document, broken up into many separate sections. You don't have to read them

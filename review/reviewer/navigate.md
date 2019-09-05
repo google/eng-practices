@@ -1,6 +1,6 @@
 # Navigating a CL in review
 
-[TOC]
+
 
 ## Summary
 

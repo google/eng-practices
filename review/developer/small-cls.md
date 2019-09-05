@@ -1,6 +1,6 @@
 # Small CLs
 
-[TOC]
+
 
 ## Why Write Small CLs? {#why}
 

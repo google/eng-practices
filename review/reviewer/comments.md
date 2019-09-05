@@ -1,6 +1,6 @@
 # How to write code review comments
 
-[TOC]
+
 
 ## Summary
 

@@ -4,7 +4,7 @@ Sometimes there are emergency CLs that must pass through the entire code review
 process as quickly as
 possible.
 
-[TOC]
+
 
 ## What Is An Emergency? {#what}
 
