@@ -14,7 +14,7 @@ submit an improvement to the codebase, then the codebase never improves. Also,
 if a reviewer makes it very difficult for _any_ change to go in, then developers
 are disincentivized to make improvements in the future.
 
-On the other hand, it is the duty of the reviewer to make sure that each CL is
+On the other hand, it is the duty of the reviewer to make sure that each CL (Changelist) is
 of such a quality that the overall code health of their codebase is not
 decreasing as time goes on. This can be tricky, because often, codebases degrade
 through small decreases in code health over time, especially when a team is
