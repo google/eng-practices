@@ -11,6 +11,7 @@ Currently this contains the following documents:
 *   [Google's Code Review Guidelines](review/index.md), which are actually two
     separate sets of documents:
     *   [The Code Reviewer's Guide](review/reviewer/index.md)
+        * [Chinese version](https://tachingchen.com/tw/blog/how-to-do-a-code-review-by-google-1/)
     *   [The Change Author's Guide](review/developer/index.md)
 
 ## Terminology
