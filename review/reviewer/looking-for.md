@@ -119,8 +119,8 @@ The author of the CL should not include major style changes combined with other
 changes. It makes it hard to see what is being changed in the CL, makes merges
 and rollbacks more complex, and causes other problems. For example, if the
 author wants to reformat the whole file, have them send you just the
-reformatting to as one CL, and then send another CL with their functional
-changes after that.
+reformatting as one CL, and then send another CL with their functional changes
+after that.
 
 ## Documentation
 
