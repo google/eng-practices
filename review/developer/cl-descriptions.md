@@ -27,8 +27,9 @@ informative enough that they don't have to read your CL or its whole description
 just to get a general idea of what your CL actually *did*.
 
 By tradition, the first line of a CL description is a complete sentence, written
-as though it were an order (an imperative sentence). For example, say
-\"**Delete** the FizzBuzz RPC and **replace** it with the new system." instead
+as though it were an order (an imperative sentence). Think of the first line as
+a way to complete the phrase: "*The changes in this CL will ...*". For example,
+say \"**Delete** the FizzBuzz RPC and **replace** it with the new system." instead
 of \"**Deleting** the FizzBuzz RPC and **replacing** it with the new system."
 You don't have to write the rest of the description as an imperative sentence,
 though.
