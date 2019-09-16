@@ -24,6 +24,10 @@ we clarify here for external readers:
 *   **LGTM**: Means "Looks Good to Me." It is what a code reviewer says when
     approving a CL.
 
+## On other languages
+
+* [Chinese](https://github.com/xindoo/eng-practices-cn) 
+
 ## License
 
 The documents in this project are licensed under the CC-By 3.0 License, which
