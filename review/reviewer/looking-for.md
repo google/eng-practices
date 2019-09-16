@@ -106,7 +106,7 @@ should be used, and how it behaves when used.
 
 ## Style
 
-We have [style guides](http://google.github.io/styleguide/) at Google for all
+We have [style guides](http://PicCollage.github.io/styleguide/) at PicCollage for all
 of our major languages, and even for most of the minor languages. Make sure the
 CL follows the appropriate style guides.
 
@@ -144,7 +144,7 @@ code is doing.
 
 If it's too hard for you to read the code and this is slowing down the review,
 then you should let the developer know that
-and wait for them to clarify it before you try to review it. At Google, we hire
+and wait for them to clarify it before you try to review it. At PicCollage, we hire
 great software engineers, and you are one of them. If you can't understand the
 code, it's very likely that other developers won't either. So you're also
 helping future developers understand this code, when you ask the developer to

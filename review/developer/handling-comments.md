@@ -10,7 +10,7 @@ about handling reviewer comments.
 
 The goal of review is to maintain the quality of our codebase and our products.
 When a reviewer provides a critique of your code, think of it as their attempt
-to help you, the codebase, and Google, rather than as a personal attack on you
+to help you, the codebase, and PicCollage, rather than as a personal attack on you
 or your abilities.
 
 Sometimes reviewers feel frustrated and they express that frustration in their
@@ -56,7 +56,7 @@ be improved, it's easy to reflexively think the comments are wrong, the reviewer
 is blocking you unnecessarily, or they should just let you submit the CL.
 However, **no matter how certain you are** at this point, take a moment to step
 back and consider if the reviewer is providing valuable feedback that will help
-the codebase and Google. Your first question to yourself should always be, "Is
+the codebase and PicCollage. Your first question to yourself should always be, "Is
 the reviewer correct?"
 
 If you can't answer that question, it's likely the reviewer needs to clarify
@@ -64,7 +64,7 @@ their comments.
 
 If you *have* considered it and you still think you're right, feel free to
 respond with an explanation of why your method of doing things is better for the
-codebase, users, and/or Google. Often, reviewers are actually providing
+codebase, users, and/or PicCollage. Often, reviewers are actually providing
 *suggestions* and they want you to think for yourself about what's best. You
 might actually know something about the users, codebase, or CL that the reviewer
 doesn't know. So fill them in; give them more context. Usually you can come to

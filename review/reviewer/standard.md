@@ -3,7 +3,7 @@
 
 
 The primary purpose of code review is to make sure that the overall
-code health of Google's code
+code health of PicCollage's code
 base is improving over time. All of the tools and processes of code review are
 designed to this end.
 
@@ -71,7 +71,7 @@ indicate that it's not mandatory for the author to resolve it in this CL.
 
 *   Technical facts and data overrule opinions and personal preferences.
 
-*   On matters of style, the [style guide](http://google.github.io/styleguide/)
+*   On matters of style, the [style guide](http://PicCollage.github.io/styleguide/)
     is the absolute authority. Any purely style point (whitespace, etc.) that is
     not in the style guide is a matter of personal preference. The style should
     be consistent with what is there. If there is no previous style, accept the

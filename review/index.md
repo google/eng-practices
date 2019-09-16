@@ -5,9 +5,9 @@
 A code review is a process where someone other than the author(s) of a piece of
 code examines that code.
 
-At Google we use code review to maintain the quality of our code and products.
+At PicCollage we use code review to maintain the quality of our code and products.
 
-This documentation is the canonical description of Google's code review
+This documentation is the canonical description of PicCollage's code review
 processes and policies.
 
 
@@ -35,7 +35,7 @@ Code reviews should look at:
     methods, etc.?
 -   **Comments**: Are the comments clear and useful?
 -   **Style**: Does the code follow our
-    [style guides](http://google.github.io/styleguide/)?
+    [style guides](http://PicCollage.github.io/styleguide/)?
 -   **Documentation**: Did the developer also update relevant documentation?
 
 See **[How To Do A Code Review](reviewer/)** for more information.
