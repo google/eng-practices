@@ -26,7 +26,7 @@ we clarify here for external readers:
 
 ## License
 
-The documents in this project are licensed under the CC-By 3.0 License, which
+The documents in this project are licensed under the [CC-By 3.0 License](LICENSE), which
 encourages you to share these documents. See
 <https://creativecommons.org/licenses/by/3.0/> for more details.
 
