@@ -23,6 +23,8 @@ we clarify here for external readers:
     Other organizations often call this a "change" or a "patch."
 *   **LGTM**: Means "Looks Good to Me." It is what a code reviewer says when
     approving a CL.
+*   **VC**: TODO - Define what VC means.
+*   **TL**: Team Lead
 
 ## License
 
