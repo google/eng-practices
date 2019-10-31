@@ -1,9 +1,7 @@
 # Tyemill Code Review Process Docs
 
 These documents represent Tyemill's collective experience of various
-best practices that we have developed over time. It is possible that open source
-projects or other organizations would benefit from this knowledge, so we work to
-make it available publicly when possible.
+best practices that we have developed over time.
 
 Currently this contains the following documents:
 
