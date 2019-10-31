@@ -5,9 +5,9 @@
 A code review is a process where someone other than the author(s) of a piece of
 code examines that code.
 
-At Google we use code review to maintain the quality of our code and products.
+At Tyemill we use code review to maintain the quality of our code and products.
 
-This documentation is the canonical description of Google's code review
+This documentation is the canonical description of Tyemill's code review
 processes and policies.
 
 
@@ -17,8 +17,8 @@ documents that are a part of this guide:
 
 -   **[How To Do A Code Review](reviewer/)**: A detailed guide for code
     reviewers.
--   **[The CL Author's Guide](developer/)**: A detailed guide for developers
-    whose CLs are going through review.
+-   **[The PR Author's Guide](developer/)**: A detailed guide for developers
+    whose PRs are going through review.
 
 ## What Do Code Reviewers Look For? {#look_for}
 
@@ -40,30 +40,15 @@ Code reviews should look at:
 
 See **[How To Do A Code Review](reviewer/)** for more information.
 
-### Picking the Best Reviewers {#best_reviewers}
-
-In general, you want to find the *best* reviewers you can who are capable of
-responding to your review within a reasonable period of time.
-
-The best reviewer is the person who will be able to give you the most thorough
-and correct review for the piece of code you are writing. This usually means the
-owner(s) of the code, who may or may not be the people in the OWNERS file.
-Sometimes this means asking different people to review different parts of the
-CL.
-
-If you find an ideal reviewer but they are not available, you should at least CC
-them on your change.
-
 ### In-Person Reviews {#in_person}
 
-If you pair-programmed a piece of code with somebody who was qualified to do a
-good code review on it, then that code is considered reviewed.
+If you pair-programmed a piece of code with somebody, then that code is considered reviewed.
 
-You can also do in-person code reviews where the reviewer asks questions and the
-developer of the change speaks only when spoken to.
+We prefer if reviews are done on line but if initial feedback is done online followups can
+be done in person.
 
 ## See Also {#seealso}
 
 -   [How To Do A Code Review](reviewer/): A detailed guide for code reviewers.
--   [The CL Author's Guide](developer/): A detailed guide for developers whose
+-   [The PR Author's Guide](developer/): A detailed guide for developers whose
     CLs are going through review.

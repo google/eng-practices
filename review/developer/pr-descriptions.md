@@ -1,32 +1,31 @@
-# Writing good CL descriptions
+# Writing good PR descriptions
 
 
 
-A CL description is a public record of **what** change is being made and **why**
+A PR description is a public record of **what** change is being made and **why**
 it was made. It will become a permanent part of our version control history, and
 will possibly be read by hundreds of people other than your reviewers over the
 years.
 
-Future developers will search for your CL based on its description. Someone in
+Future developers will search for your PR based on its description. Someone in
 the future might be looking for your change because of a faint memory of its
 relevance but without the specifics handy. If all the important information is
 in the code and not the description, it's going to be a lot harder for them to
-locate your CL.
+locate your PR.
 
 ## First Line {#firstline}
 
 *   Short summary of what is being done.
 *   Complete sentence, written as though it was an order.
-*   Follow by empty line.
 
-The **first line** of a CL description should be a short summary of
-*specifically* **what** *is being done by the CL*, followed by a blank line.
+The **first line** of a PR description should be a short summary of
+*specifically* **what** *is being done by the PR*, followed by a blank line.
 This is what most future code searchers will see when they are browsing the
 version control history of a piece of code, so this first line should be
-informative enough that they don't have to read your CL or its whole description
-just to get a general idea of what your CL actually *did*.
+informative enough that they don't have to read your PR or its whole description
+just to get a general idea of what your PR actually *did*.
 
-By tradition, the first line of a CL description is a complete sentence, written
+By tradition, the first line of a PR description is a complete sentence, written
 as though it were an order (an imperative sentence). For example, say
 \"**Delete** the FizzBuzz RPC and **replace** it with the new system." instead
 of \"**Deleting** the FizzBuzz RPC and **replacing** it with the new system."
@@ -41,11 +40,11 @@ approach. If there are any shortcomings to the approach, they should be
 mentioned. If relevant, include background information such as bug numbers,
 benchmark results, and links to design documents.
 
-Even small CLs deserve a little attention to detail. Put the CL in context.
+Even small PRs deserve a little attention to detail. Put the PR in context.
 
-## Bad CL Descriptions {#bad}
+## Bad PR Descriptions {#bad}
 
-"Fix bug" is an inadequate CL description. What bug? What did you do to fix it?
+"Fix bug" is an inadequate PR description. What bug? What did you do to fix it?
 Other similarly bad descriptions include:
 
 -   "Fix build."
@@ -55,11 +54,11 @@ Other similarly bad descriptions include:
 -   "Add convenience functions."
 -   "kill weird URLs."
 
-Some of those are real CL descriptions. Their authors may believe they are
-providing useful information, but they are not serving the purpose of a CL
+Some of those are real PR descriptions. Their authors may believe they are
+providing useful information, but they are not serving the purpose of a PR
 description.
 
-## Good CL Descriptions {#good}
+## Good PR Descriptions {#good}
 
 Here are some examples of good descriptions.
 
@@ -72,7 +71,7 @@ Here are some examples of good descriptions.
 > slowly over time, so that idle servers eventually release all freelist
 > entries.
 
-The first few words describe what the CL actually does. The rest of the
+The first few words describe what the PR actually does. The rest of the
 description talks about the problem being solved, why this is a good solution,
 and a bit more information about the specific implementation.
 
@@ -91,12 +90,12 @@ and a bit more information about the specific implementation.
 >
 > Continuing the long-range goal of refactoring the Borglet Hierarchy.
 
-The first line describes what the CL does and how this is a change from the
+The first line describes what the PR does and how this is a change from the
 past. The rest of the description talks about the specific implementation, the
-context of the CL, that the solution isn't ideal, and possible future direction.
+context of the PR, that the solution isn't ideal, and possible future direction.
 It also explains *why* this change is being made.
 
-### Small CL that needs some context
+### Small PR that needs some context
 
 > Create a Python3 build rule for status.py.
 >
@@ -110,10 +109,10 @@ The first sentence describes what's actually being done. The rest of the
 description explains *why* the change is being made and gives the reviewer a lot
 of context.
 
-## Review the description before submitting the CL
+## Review the description before submitting the PR
 
-CLs can undergo significant change during review. It can be worthwhile to review
-a CL description before submitting the CL, to ensure that the description still
-reflects what the CL does.
+PRs can undergo significant change during review. It can be worthwhile to review
+a PR description before submitting the PR, to ensure that the description still
+reflects what the PR does.
 
-Next: [Small CLs](small-cls.md)
+Next: [Small PRs](small-prs.md)

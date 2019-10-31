@@ -43,37 +43,24 @@ insistence on code quality.
 
 A common source of push back is that developers (understandably) want to get
 things done. They don't want to go through another round of review just to get
-this CL in. So they say they will clean something up in a later CL, and thus you
-should LGTM *this* CL now. Some developers are very good about this, and will
-immediately write a follow-up CL that fixes the issue. However, experience shows
-that as more time passes after a developer writes the original CL, the less
+this PR in. So they say they will clean something up in a later PR, and thus you
+should LGTM *this* PR now. Some developers are very good about this, and will
+immediately write a follow-up PR that fixes the issue. However, experience shows
+that as more time passes after a developer writes the original PR, the less
 likely this clean up is to happen. In fact, usually unless the developer does
-the clean up *immediately* after the present CL, it never happens. This isn't
+the clean up *immediately* after the present PR, it never happens. This isn't
 because developers are irresponsible, but because they have a lot of work to do
 and the cleanup gets lost or forgotten in the press of other work. Thus, it is
-usually best to insist that the developer clean up their CL *now*, before the
+usually best to insist that the developer clean up their PR *now*, before the
 code is in the codebase and "done." Letting people "clean things up later" is a
 common way for codebases to degenerate.
 
-If a CL introduces new complexity, it must be cleaned up before submission
-unless it is an [emergency](../emergencies.md). If the CL exposes surrounding
+If a PR introduces new complexity, it must be cleaned up before submission
+unless it is an [emergency](../emergencies.md). If the PR exposes surrounding
 problems and they can't be addressed right now, the developer should file a bug
 for the cleanup and assign it to themselves so that it doesn't get lost. They
 can optionally also write a TODO comment in the code that references the filed
 bug.
-
-## General Complaints About Strictness {#strictness}
-
-If you previously had fairly lax code reviews and you switch to having strict
-reviews, some developers will complain very loudly. Improving the
-[speed](speed.md) of your code reviews usually causes these complaints to fade
-away.
-
-Sometimes it can take months for these complaints to fade away, but eventually
-developers tend to see the value of strict code reviews as they see what great
-code they help generate. Sometimes the loudest protesters even become your
-strongest supporters once something happens that causes them to really see the
-value you're adding by being strict.
 
 ## Resolving Conflicts {#conflicts}
 
