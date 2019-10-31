@@ -22,12 +22,14 @@ Currently this contains the following documents:
 ## Attribution
 
 Originally licensed under CC-By 3.0 License
-Original Title: Google Engineering Practices Documentation
-Source: https://google.github.io/eng-practices/
-Original Author: [Google Inc](https://opensource.google)
-Modifications: Modify wording and structure to apply to Tyemill specific processes.
 
-<a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a>
+Original Title: Google Engineering Practices Documentation
+
+Source: https://google.github.io/eng-practices/
+
+Original Author: [Google Inc](https://opensource.google)
+
+Modifications: Modify wording and structure to apply to Tyemill specific processes.
 
 ## License
 
