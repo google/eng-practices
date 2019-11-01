@@ -65,6 +65,7 @@ Here are some examples of good descriptions.
 
 ### Functionality change
 
+Example:
 > rpc: remove size limit on RPC server message freelist.
 >
 > Servers like FizzBuzz have very large messages and would benefit from reuse.
@@ -78,6 +79,7 @@ and a bit more information about the specific implementation.
 
 ### Refactoring
 
+Example:
 > Construct a Task with a TimeKeeper to use its TimeStr and Now methods.
 >
 > Add a Now method to Task, so the borglet() getter method can be removed (which
@@ -98,6 +100,7 @@ It also explains *why* this change is being made.
 
 ### Small CL that needs some context
 
+Example:
 > Create a Python3 build rule for status.py.
 >
 > This allows consumers who are already using this as in Python3 to depend on a
