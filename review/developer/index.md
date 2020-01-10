@@ -8,6 +8,9 @@ helpful to read the whole set.
 
 -   [Writing Good CL Descriptions](cl-descriptions.md)
 -   [Small CLs](small-cls.md)
+-   WANT_LGTM to clarify the expectation when a CL is sent to multiple
+    reviewers. You can use `WANT_LGTM=any` (the default behavior) or
+    `WANT_LGTM=all` to clarify.
 -   [How to Handle Reviewer Comments](handling-comments.md)
 
 See also [How to Do a Code Review](../reviewer/), which gives detailed guidance

@@ -41,6 +41,11 @@ approach. If there are any shortcomings to the approach, they should be
 mentioned. If relevant, include background information such as bug numbers,
 benchmark results, and links to design documents.
 
+If you include links to external resources consider that they may not be visible
+to future readers due to access restrictions of retention policies. Where
+possible include enough context for reviewers and future readers to understand
+the CL.
+
 Even small CLs deserve a little attention to detail. Put the CL in context.
 
 ## Bad CL Descriptions {#bad}
