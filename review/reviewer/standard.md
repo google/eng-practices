@@ -99,7 +99,7 @@ and this [Reviewer Guide](index.md).
 When coming to consensus becomes especially difficult, it can help to have a
 face-to-face meeting or a video conference between the reviewer and the author, instead of
 just trying to resolve the conflict through code review comments. (If you do
-this, though, make sure to record the results of the discussion in a comment on
+this, though, make sure to record the results of the discussion as a comment on
 the CL, for future readers.)
 
 If that doesn't resolve the situation, the most common way to resolve it would
