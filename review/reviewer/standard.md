@@ -104,7 +104,7 @@ the CL, for future readers.)
 
 If that doesn't resolve the situation, the most common way to resolve it would
 be to escalate. Often the
-escalation path is to a broader team discussion, having aTechnical Leadweigh in, asking
+escalation path is to a broader team discussion, having a Technical Lead weigh in, asking
 for a decision from a maintainer of the code, or asking an Eng Manager to help
 out. **Don't let a CL sit around because the author and the reviewer can't come
 to an agreement.**

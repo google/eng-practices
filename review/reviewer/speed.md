@@ -51,7 +51,7 @@ review.
 
 Instead, wait for a break point in your work before you respond to a request for
 review. This could be when your current coding task is completed, after lunch,
-returning from a meeting, coming back from the microkitchen, etc.
+returning from a meeting, coming back from the breakroom, etc.
 
 ## Fast Responses {#responses}
 
