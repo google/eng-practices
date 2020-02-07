@@ -26,6 +26,8 @@ version control history of a piece of code, so this first line should be
 informative enough that they don't have to read your CL or its whole description
 just to get a general idea of what your CL actually *did*.
 
+Try to keep your first line short, focused, and to the point.
+The clarity and utility to the reader should be the top concern.
 By tradition, the first line of a CL description is a complete sentence, written
 as though it were an order (an imperative sentence). For example, say
 \"**Delete** the FizzBuzz RPC and **replace** it with the new system." instead
