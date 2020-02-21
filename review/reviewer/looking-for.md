@@ -104,6 +104,8 @@ Note that comments are different from *documentation* of classes, modules, or
 functions, which should instead express the purpose of a piece of code, how it
 should be used, and how it behaves when used.
 
+See also: go/comments
+
 ## Style
 
 We have [style guides](http://google.github.io/styleguide/) at Google for all
