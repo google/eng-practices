@@ -15,9 +15,9 @@ processes and policies.
 This page is an overview of our code review process. There are two other large
 documents that are a part of this guide:
 
--   **[How To Do A Code Review](reviewer/)**: A detailed guide for code
+-   **[How To Do A Code Review](reviewer/index.md)**: A detailed guide for code
     reviewers.
--   **[The CL Author's Guide](developer/)**: A detailed guide for developers
+-   **[The CL Author's Guide](developer/index.md)**: A detailed guide for developers
     whose CLs are going through review.
 
 ## What Do Code Reviewers Look For? {#look_for}
@@ -38,7 +38,7 @@ Code reviews should look at:
     [style guides](http://google.github.io/styleguide/)?
 -   **Documentation**: Did the developer also update relevant documentation?
 
-See **[How To Do A Code Review](reviewer/)** for more information.
+See **[How To Do A Code Review](reviewer/index.md)** for more information.
 
 ### Picking the Best Reviewers {#best_reviewers}
 
@@ -64,6 +64,6 @@ developer of the change speaks only when spoken to.
 
 ## See Also {#seealso}
 
--   [How To Do A Code Review](reviewer/): A detailed guide for code reviewers.
--   [The CL Author's Guide](developer/): A detailed guide for developers whose
+-   [How To Do A Code Review](reviewer/index.md): A detailed guide for code reviewers.
+-   [The CL Author's Guide](developer/index.md): A detailed guide for developers whose
     CLs are going through review.
