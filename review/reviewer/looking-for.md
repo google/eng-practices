@@ -122,6 +122,24 @@ author wants to reformat the whole file, have them send you just the
 reformatting as one CL, and then send another CL with their functional changes
 after that.
 
+## Consistency
+
+What if the existing code is inconsistent with the style guide? Per our
+[code review principles](standard.md#principles), the style guide is the
+absolute authority: if something is required by the style guide, the CL should
+follow the guidelines.
+
+Otherwise, if the style guideline is more a recommendation and not a
+requirement, then it's a judgment call whether the new code should be consistent
+with the style guide or the surrounding code. Bias towards following the style
+guide unless the local inconsistency would be too confusing.
+
+If no other rule applies, the author should maintain consistency with the
+existing code.
+
+Either way, encourage the author to file a bug and add a TODO for cleaning up
+existing code.
+
 ## Documentation
 
 If a CL changes how users build, test, interact with, or release code, check to
