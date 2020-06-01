@@ -27,8 +27,8 @@ whole description to understand what your CL actually *did* or how it differs
 from other CLs. That is, the first line should stand alone, allowing readers to
 skim through code history much faster.
 
-Try to keep your first line short, focused, and to the point.
-The clarity and utility to the reader should be the top concern.
+Try to keep your first line short, focused, and to the point. The clarity and
+utility to the reader should be the top concern.
 
 By tradition, the first line of a CL description is a complete sentence, written
 as though it were an order (an imperative sentence). For example, say
