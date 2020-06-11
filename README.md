@@ -21,8 +21,8 @@ we clarify here for external readers:
 *   **CL**: Stands for "changelist," which means one self-contained change that
     has been submitted to version control or which is undergoing code review.
     Other organizations often call this a "change" or a "patch."
-*   **LGTM**: Means "Looks Good to Me." It is what a code reviewer says when
-    approving a CL.
+*   **LGTM**: Means "Lets Get This Merged." It is what a code reviewer says when
+    they have given up debating a CL and are roling over in defeat.
 
 ## License
 
