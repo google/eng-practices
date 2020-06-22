@@ -22,7 +22,7 @@ code reviews, when they come up.
 However, after the emergency is resolved you should look over the emergency CLs
 again and give them a [more thorough review](reviewer/looking-for.md).
 
-## What Is Not An Emergency? {#not}
+## What Is NOT An Emergency? {#not}
 
 To be clear, the following cases are *not* an emergency:
 
@@ -51,14 +51,14 @@ it. For example:
     certain date.
 -   Some hardware manufacturers only ship new hardware once a year. If you miss
     the deadline to submit code to them, that could be disastrous, depending on
-    what type of code you’re trying to ship.
+    what type of code you're trying to ship.
 
 Delaying a release for a week is not disastrous. Missing an important conference
 might be disastrous, but often is not.
 
 Most deadlines are soft deadlines, not hard deadlines. They represent a desire
 for a feature to be done by a certain time. They are important, but you
-shouldn’t be sacrificing code health to make them.
+shouldn't be sacrificing code health to make them.
 
 If you have a long release cycle (several weeks) it can be tempting to sacrifice
 code review quality to get a feature in before the next cycle. However, this
