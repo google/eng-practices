@@ -43,7 +43,7 @@ See **[How To Do A Code Review](reviewer/index.md)** for more information.
 ### Picking the Best Reviewers {#best_reviewers}
 
 In general, you want to find the *best* reviewers you can who are capable of
-responding to your review within a reasonable period of time.
+responding to your review within a reasonable time.
 
 The best reviewer is the person who will be able to give you the most thorough
 and correct review for the piece of code you are writing. This usually means the
@@ -56,7 +56,7 @@ them on your change.
 
 ### In-Person Reviews {#in_person}
 
-If you pair-programmed a piece of code with somebody who was qualified to do a
+If you pair-programmed a piece of code with somebody qualified to do a
 good code review on it, then that code is considered reviewed.
 
 You can also do in-person code reviews where the reviewer asks questions and the
