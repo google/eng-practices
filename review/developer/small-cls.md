@@ -49,6 +49,7 @@ that:
     general it's better to err on the side of writing CLs that are too small vs.
     CLs that are too large. Work with your reviewer to find out what an
     acceptable size is.
+-   The CL should [include related test code](#test_code).
 -   Everything the reviewer needs to understand about the CL (except future
     development) is in the CL, the CL's description, the existing codebase, or a
     CL they've already reviewed.
