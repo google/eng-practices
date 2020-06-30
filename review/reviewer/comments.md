@@ -55,6 +55,13 @@ helpful. The primary goal of code review is to get the best CL possible. A
 secondary goal is improving the skills of developers so that they require less
 and less review over time.
 
+Remember that people learn from reinforcement of what they are doing well and
+not just what they could do better. If you see things you like in the CL,
+comment on those too! Examples: developer cleaned up a messy algorithm, added
+exemplary test coverage, or you as the reviewer learned something from the CL.
+Just as with all comments, include [why](#why) you liked something, further
+encouraging the developer to continue good practices.
+
 ## Accepting Explanations {#explanations}
 
 If you ask a developer to explain a piece of code that you don't understand,
