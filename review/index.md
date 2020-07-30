@@ -5,7 +5,7 @@
 A code review is a process where someone other than the author(s) of a piece of
 code examines that code.
 
-At Google we use code review to maintain the quality of our code and products.
+At Google, we use code review to maintain the quality of our code and products.
 
 This documentation is the canonical description of Google's code review
 processes and policies.
