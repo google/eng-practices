@@ -4,8 +4,7 @@ SwitchDin is developing engineering practices that cover the languages used.
 These documents represent our collective experience of various
 best practices that we have learned over time.
 
-These documents were forked from [Google's code review
-process and policy documents](https://google.github.io/eng-practices/).
+These documents were forked from [Google's Engineering Practices Documentation](https://google.github.io/eng-practices/).
 
 Currently this contains the following documents:
 
