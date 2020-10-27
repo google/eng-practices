@@ -129,10 +129,10 @@ What if the existing code is inconsistent with the style guide? Per our
 absolute authority: if something is required by the style guide, the CL should
 follow the guidelines.
 
-Otherwise, if the style guideline is more a recommendation and not a
-requirement, then it's a judgment call whether the new code should be consistent
-with the style guide or the surrounding code. Bias towards following the style
-guide unless the local inconsistency would be too confusing.
+In some cases, the style guide makes recommendations rather than declaring
+requirements. In these cases, it's a judgment call whether the new code should
+be consistent with the recommendations or the surrounding code. Bias towards
+following the style guide unless the local inconsistency would be too confusing.
 
 If no other rule applies, the author should maintain consistency with the
 existing code.
