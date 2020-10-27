@@ -4,7 +4,7 @@
 
 ## Why Should Code Reviews Be Fast? {#why}
 
-**At Google, we optimize for the speed at which a team of developers can produce
+**At SwitchDin, we optimize for the speed at which a team of developers can produce
 a product together**, as opposed to optimizing for the speed at which an
 individual developer can write code. The speed of individual development is
 important, it's just not _as_ important as the velocity of the entire team.
