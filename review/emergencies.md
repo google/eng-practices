@@ -8,7 +8,7 @@ possible.
 
 ## What Is An Emergency? {#what}
 
-An emergency CL would be a **small** change that: allows a major launch to
+An emergency PR would be a **small** change that: allows a major launch to
 continue instead of rolling back, fixes a bug significantly affecting users in
 production, handles a pressing legal issue, closes a major security hole, etc.
 
@@ -29,14 +29,14 @@ To be clear, the following cases are *not* an emergency:
 -   Wanting to launch this week rather than next week (unless there is some
     actual [hard deadline](#deadlines) for launch such as a partner agreement).
 -   The developer has worked on a feature for a very long time and they really
-    want to get the CL in.
+    want to get the PR in.
 -   The reviewers are all in another timezone where it is currently nighttime or
     they are away on an off-site.
 -   It is the end of the day on a Friday and it would just be great to get this
-    CL in before the developer leaves for the weekend.
--   A manager says that this review has to be complete and the CL checked in
+    PR in before the developer leaves for the weekend.
+-   A manager says that this review has to be complete and the PR checked in
     today because of a [soft (not hard) deadline](#deadlines).
--   Rolling back a CL that is causing test failures or build breakages.
+-   Rolling back a PR that is causing test failures or build breakages.
 
 And so on.
 
@@ -45,7 +45,7 @@ And so on.
 A hard deadline is one where **something disastrous would happen** if you miss
 it. For example:
 
--   Submitting your CL by a certain date is necessary for a contractual
+-   Submitting your PR by a certain date is necessary for a contractual
     obligation.
 -   Your product will completely fail in the marketplace if not released by a
     certain date.

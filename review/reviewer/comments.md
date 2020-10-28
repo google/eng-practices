@@ -39,7 +39,7 @@ following, or how your suggestion improves code health.
 
 ## Giving Guidance {#guidance}
 
-**In general it is the developer's responsibility to fix a CL, not the
+**In general it is the developer's responsibility to fix a PR, not the
 reviewer's.** You are not required to do detailed design of a solution or write
 code for the developer.
 
@@ -51,14 +51,14 @@ can result in a better solution, because the developer is closer to the code
 than the reviewer is.
 
 However, sometimes direct instructions, suggestions, or even code are more
-helpful. The primary goal of code review is to get the best CL possible. A
+helpful. The primary goal of code review is to get the best PR possible. A
 secondary goal is improving the skills of developers so that they require less
 and less review over time.
 
 Remember that people learn from reinforcement of what they are doing well and
-not just what they could do better. If you see things you like in the CL,
+not just what they could do better. If you see things you like in the PR,
 comment on those too! Examples: developer cleaned up a messy algorithm, added
-exemplary test coverage, or you as the reviewer learned something from the CL.
+exemplary test coverage, or you as the reviewer learned something from the PR.
 Just as with all comments, include [why](#why) you liked something, further
 encouraging the developer to continue good practices.
 
