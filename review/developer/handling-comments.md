@@ -1,4 +1,4 @@
-# How to handle reviewer comments
+# How to Handle Reviewer Comments
 
 
 
@@ -30,9 +30,7 @@ and polite, explain this to them in person. If you can't talk to them in person
 or on a video call, then send them a private email. Explain to them in a kind
 way what you don't like and what you'd like them to do differently. If they also
 respond in a non-constructive way to this private discussion, or it doesn't have
-the intended effect, then
-escalate to your manager as
-appropriate.
+the intended effect, then escalate to your manager as appropriate.
 
 ## Fix the Code {#code}
 
