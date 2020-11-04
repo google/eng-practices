@@ -1,4 +1,4 @@
-# Navigating a PR in review
+# Navigating a PR in Review
 
 
 
@@ -8,14 +8,14 @@ Now that you know [what to look for](looking-for.md), what's the most efficient
 way to manage a review that's spread across multiple files?
 
 1.  Does the change make sense? Does it have a good
-    [description](../developer/cl-descriptions.md)?
+    [description](../developer/pr-descriptions.md)?
 2.  Look at the most important part of the change first. Is it well-designed
     overall?
 3.  Look at the rest of the PR in an appropriate sequence.
 
 ## Step One: Take a broad view of the change {#step_one}
 
-Look at the [PR description](../developer/cl-descriptions.md) and what the PR
+Look at the [PR description](../developer/pr-descriptions.md) and what the PR
 does in general. Does this change even make sense? If this change shouldn't have
 happened in the first place, please respond immediately with an explanation of
 why the change should not be happening. When you reject a change like this, it's
@@ -31,9 +31,9 @@ alternative suggestion, but they did it *courteously*. This kind of courtesy is
 important because we want to show that we respect each other as developers even
 when we disagree.
 
-If you get more than a few CLs that represent changes you don't want to make,
+If you get more than a few PRs that represent changes you don't want to make,
 you should consider re-working your team's development process or the posted
-process for external contributors so that there is more communication before CLs
+process for external contributors so that there is more communication before PRs
 are written. It's better to tell people "no" before they've done a ton of work
 that now has to be thrown away or drastically re-written.
 
@@ -45,7 +45,7 @@ the PR. Look at these major parts first. This helps give context to all of the
 smaller parts of the PR, and generally accelerates doing the code review. If the
 PR is too large for you to figure out which parts are the major parts, ask the
 developer what you should look at first, or ask them to
-[split up the PR into multiple CLs](../developer/small-cls.md).
+[split up the PR into multiple PRs](../developer/small-prs.md).
 
 If you see some major design problems with this part of the PR, you should send
 those comments immediately, even if you don't have time to review the rest of

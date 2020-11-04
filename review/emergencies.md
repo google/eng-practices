@@ -1,8 +1,7 @@
 # Emergencies
 
-Sometimes there are emergency CLs that must pass through the entire code review
-process as quickly as
-possible.
+Sometimes there are emergency PRs that must pass through the entire code review
+process as quickly as possible.
 
 
 
@@ -19,7 +18,7 @@ correctness of the code (does it actually resolve the emergency?) than anything
 else. Also (perhaps obviously) such reviews should take priority over all other
 code reviews, when they come up.
 
-However, after the emergency is resolved you should look over the emergency CLs
+However, after the emergency is resolved you should look over the emergency PRs
 again and give them a [more thorough review](reviewer/looking-for.md).
 
 ## What Is NOT An Emergency? {#not}
@@ -30,7 +29,7 @@ To be clear, the following cases are *not* an emergency:
     actual [hard deadline](#deadlines) for launch such as a partner agreement).
 -   The developer has worked on a feature for a very long time and they really
     want to get the PR in.
--   The reviewers are all in another timezone where it is currently nighttime or
+-   The reviewers are all in another timezone where it is currently night-time or
     they are away on an off-site.
 -   It is the end of the day on a Friday and it would just be great to get this
     PR in before the developer leaves for the weekend.
@@ -63,7 +62,7 @@ shouldn't be sacrificing code health to make them.
 If you have a long release cycle (several weeks) it can be tempting to sacrifice
 code review quality to get a feature in before the next cycle. However, this
 pattern, if repeated, is a common way for projects to build up overwhelming
-technical debt. If developers are routinely submitting CLs near the end of the
+technical debt. If developers are routinely submitting PRs near the end of the
 cycle that "must get in" with only superficial review, then the team should
 modify its process so that large feature changes happen early in the cycle and
 have enough time for good review.

@@ -18,7 +18,7 @@ documents that are a part of this guide:
 -   **[How To Do A Code Review](reviewer/index.md)**: A detailed guide for code
     reviewers.
 -   **[The PR Author's Guide](developer/index.md)**: A detailed guide for
-    developers whose CLs are going through review.
+    developers whose PRs are going through review.
 
 ## What Do Code Reviewers Look For? {#look_for}
 
@@ -67,4 +67,4 @@ developer of the change speaks only when spoken to.
 -   [How To Do A Code Review](reviewer/index.md): A detailed guide for code
     reviewers.
 -   [The PR Author's Guide](developer/index.md): A detailed guide for developers
-    whose CLs are going through review.
+    whose PRs are going through review.

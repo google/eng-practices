@@ -24,9 +24,9 @@ When code reviews are slow, several things happen:
     an update, the complaints tend to disappear. **Most complaints about the
     code review process are actually resolved by making the process faster.**
 *   **Code health can be impacted.** When reviews are slow, there is increased
-    pressure to allow developers to submit CLs that are not as good as they
+    pressure to allow developers to submit PRs that are not as good as they
     could be. Slow reviews also discourage code cleanups, refactorings, and
-    further improvements to existing CLs.
+    further improvements to existing PRs.
 
 ## How Fast Should Code Reviews Be? {#fast}
 
@@ -86,7 +86,7 @@ your review is done before they get back to the office the next day.
 ## Approval With Comments {#approval-with-comments}
 
 In order to speed up code reviews, there are certain situations in which a
-reviewer should give Approval even though they are also leaving unresolved
+reviewer should give approval even though they are also leaving unresolved
 comments on the PR. This is done when either:
 
 *   The reviewer is confident that the developer will appropriately address all
@@ -97,21 +97,21 @@ comments on the PR. This is done when either:
 The reviewer should specify which of these options they intend, if it is not
 otherwise clear.
 
-Approval With Comments is especially worth considering when the developer and
+Approval with comments is especially worth considering when the developer and
 reviewer are in different time zones and otherwise the developer would be
-waiting for a whole day just to get "Approval."
+waiting for a whole day just to get approval.
 
-## Large CLs {#large}
+## Large PRs {#large}
 
 If somebody sends you a code review that is so large you're not sure when you
 will be able to have time to review it, your typical response should be to ask
 the developer to
-[split the PR into several smaller CLs](../developer/small-cls.md) that build on
+[split the PR into several smaller PRs](../developer/small-prs.md) that build on
 each other, instead of one huge PR that has to be reviewed all at once. This is
 usually possible and very helpful to reviewers, even if it takes additional work
 from the developer.
 
-If a PR *can't* be broken up into smaller CLs, and you don't have time to review
+If a PR *can't* be broken up into smaller PRs, and you don't have time to review
 the entire thing quickly, then at least write some comments on the overall
 design of the PR and send it back to the developer for improvement. One of your
 goals as a reviewer should be to always unblock the developer or enable them to
@@ -122,7 +122,7 @@ so.
 
 If you follow these guidelines and you are strict with your code reviews, you
 should find that the entire code review process tends to go faster and faster
-over time. Developers learn what is required for healthy code, and send you CLs
+over time. Developers learn what is required for healthy code, and send you PRs
 that are great from the start, requiring less and less review time. Reviewers
 learn to respond quickly and not add unnecessary latency into the review
 process.
@@ -133,7 +133,7 @@ quickly, in the long run.
 
 ## Emergencies
 
-There are also [emergencies](../emergencies.md) where CLs must pass through the
+There are also [emergencies](../emergencies.md) where PRs must pass through the
 _whole_ review process very quickly, and where the quality guidelines would be
 relaxed. However, please see [What Is An Emergency?](../emergencies.md#what) for
 a description of which situations actually qualify as emergencies and which

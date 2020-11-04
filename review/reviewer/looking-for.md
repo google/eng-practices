@@ -1,4 +1,4 @@
-# What to look for in a code review
+# What to Look for in a Code Review
 
 
 
@@ -20,7 +20,7 @@ for the users of this code? The "users" are usually both end-users (when they
 are affected by the change) and developers (who will have to "use" this code in
 the future).
 
-Mostly, we expect developers to test CLs well-enough that they work correctly by
+Mostly, we expect developers to test PRs well-enough that they work correctly by
 the time they get to code review. However, as the reviewer you should still be
 thinking about edge cases, looking for concurrency problems, trying to think
 like a user, and making sure that there are no bugs that you see just by reading
@@ -62,10 +62,9 @@ universe.
 
 ## Tests
 
-Ask for unit, integration, or end-to-end
-tests as appropriate for the change. In general, tests should be added in the
-same PR as the production code unless the PR is handling an
-[emergency](../emergencies.md).
+Ask for unit, integration, or end-to-end tests as appropriate for the change. 
+In general, tests should be added in the same PR as the production code 
+unless the PR is handling an [emergency](../emergencies.md).
 
 Make sure that the tests in the PR are correct, sensible, and useful. Tests do
 not test themselves, and we rarely write tests for our tests—a human must ensure
@@ -112,7 +111,7 @@ PR follows the appropriate style guides.
 
 If you want to improve some style point that isn't in the style guide, prefix
 your comment with "Nit:" to let the developer know that it's a nitpick that you
-think would improve the code but isn't mandatory. Don't block CLs from being
+think would improve the code but isn't mandatory. Don't block PRs from being
 submitted based only on personal style preferences.
 
 The author of the PR should not include major style changes combined with other
@@ -137,18 +136,16 @@ guide unless the local inconsistency would be too confusing.
 If no other rule applies, the author should maintain consistency with the
 existing code.
 
-Either way, encourage the author to file a bug and add a TODO for cleaning up
+Either way, encourage the author to file a bug and add a "TODO" for cleaning up
 existing code.
 
 ## Documentation
 
 If a PR changes how users build, test, interact with, or release code, check to
-see that it also updates associated documentation, including
-READMEs, g3doc pages, and any generated
-reference docs. If the PR deletes or deprecates code, consider whether the
-documentation should also be deleted.
-If documentation is
-missing, ask for it.
+see that it also updates associated documentation, including READMEs, Confluence 
+Wiki pages, and any generated reference docs. If the PR deletes or deprecates code, 
+consider whether the documentation should also be deleted. If documentation is missing, 
+ask for it.
 
 ## Every Line {#every_line}
 
@@ -161,12 +158,11 @@ make&mdash;but you should at least be sure that you *understand* what all the
 code is doing.
 
 If it's too hard for you to read the code and this is slowing down the review,
-then you should let the developer know that
-and wait for them to clarify it before you try to review it. At SwitchDin, we hire
-great software engineers, and you are one of them. If you can't understand the
-code, it's very likely that other developers won't either. So you're also
-helping future developers understand this code, when you ask the developer to
-clarify it.
+then you should let the developer know that and wait for them to clarify it 
+before you try to review it. At SwitchDin, we hire great software engineers, 
+and you are one of them. If you can't understand the code, it's very likely 
+that other developers won't either. So you're also helping future developers 
+understand this code, when you ask the developer to clarify it.
 
 If you understand the code but you don't feel qualified to do some part of the
 review, make sure there is a reviewer on the PR who is qualified, particularly
@@ -184,7 +180,7 @@ in a 50-line method that now really needs to be broken up into smaller methods.
 
 It's also useful to think about the PR in the context of the system as a whole.
 Is this PR improving the code health of the system or is it making the whole
-system more complex, less tested, etc.? **Don't accept CLs that degrade the code
+system more complex, less tested, etc.? **Don't accept PRs that degrade the code
 health of the system.** Most systems become complex through many small changes
 that add up, so it's important to prevent even small complexities in new
 changes.
@@ -212,7 +208,7 @@ In doing a code review, you should make sure that:
 -   Tests are well-designed.
 -   The developer used clear names for everything.
 -   Comments are clear and useful, and mostly explain *why* instead of *what*.
--   Code is appropriately documented (generally in g3doc).
+-   Code is appropriately documented (generally in READMEs or Confluence Wiki).
 -   The code conforms to our style guides.
 
 Make sure to review **every line** of code you've been asked to review, look at

@@ -1,4 +1,4 @@
-# How to write code review comments
+# How to Write Code Review Comments
 
 
 
@@ -19,7 +19,9 @@ while also being very clear and helpful to the developer whose code you are
 reviewing. One way to do this is to be sure that you are always making comments
 about the *code* and never making comments about the *developer*. You don't
 always have to follow this practice, but you should definitely use it when
-saying something that might otherwise be upsetting or contentious. For example:
+saying something that might otherwise be upsetting or contentious. 
+
+For example:
 
 Bad: "Why did **you** use threads here when there's obviously no benefit to be
 gained from concurrency?"

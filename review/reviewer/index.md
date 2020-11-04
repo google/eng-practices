@@ -1,4 +1,4 @@
-# How to do a code review
+# How to Do a Code Review
 
 The pages in this section contain recommendations on the best way to do code
 reviews, based on long experience. All together they represent one complete
@@ -14,4 +14,4 @@ read the entire set.
 -   [Handling Pushback in Code Reviews](pushback.md)
 
 See also the [PR Author's Guide](../developer/), which gives detailed guidance
-to developers whose CLs are undergoing review.
+to developers whose PRs are undergoing review.

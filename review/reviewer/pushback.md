@@ -1,4 +1,4 @@
-# Handling pushback in code reviews
+# Handling Pushback in Code Reviews
 
 
 
@@ -6,7 +6,7 @@ Sometimes a developer will push back on a code review. Either they will disagree
 with your suggestion or they will complain that you are being too strict in
 general.
 
-## Who is right? {#who_is_right}
+## Who Is Right? {#who_is_right}
 
 When a developer disagrees with your suggestion, first take a moment to consider
 if they are correct. Often, they are closer to the code than you are, and so

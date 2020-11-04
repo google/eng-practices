@@ -3,9 +3,8 @@
 
 
 The primary purpose of code review is to make sure that the overall
-code health of SwitchDin's code
-base is improving over time. All of the tools and processes of code review are
-designed to this end.
+code health of SwitchDin's code base is improving over time. All of 
+the tools and processes of code review are designed to this end.
 
 In order to accomplish this, a series of trade-offs have to be balanced.
 
@@ -24,14 +23,13 @@ shortcuts in order to accomplish their goals.
 Also, a reviewer has ownership and responsibility over the code they are
 reviewing. They want to ensure that the codebase stays consistent, maintainable,
 and all of the other things mentioned in
-["What to look for in a code review."](looking-for.md)
+["What to Look for in a Code Review."](looking-for.md)
 
 Thus, we get the following rule as the standard we expect in code reviews:
 
 **In general, reviewers should favor approving a PR once it is in a state where
-it definitely improves the overall
-code health of the system
-being worked on, even if the PR isn't perfect.**
+it definitely improves the overall code health of the system being worked on, 
+even if the PR isn't perfect.**
 
 That is _the_ senior principle among all of the code review guidelines.
 
@@ -53,7 +51,7 @@ could be better, but if it's not very important, prefix it with something like
 "Nit: " to let the author know that it's just a point of polish that they could
 choose to ignore.
 
-Note: Nothing in this document justifies checking in CLs that definitely
+Note: Nothing in this document justifies checking in PRs that definitely
 _worsen_ the overall code health of the system. The only time you would do that
 would be in an [emergency](../emergencies.md).
 
@@ -103,10 +101,9 @@ this, though, make sure to record the results of the discussion as a comment on
 the PR, for future readers.)
 
 If that doesn't resolve the situation, the most common way to resolve it would
-be to escalate. Often the
-escalation path is to a broader team discussion, having a Technical Lead weigh in, asking
-for a decision from a maintainer of the code, or asking an Eng Manager to help
-out. **Don't let a PR sit around because the author and the reviewer can't come
-to an agreement.**
+be to escalate. Often the escalation path is to a broader team discussion, having 
+a Technical Lead weigh in, asking for a decision from a maintainer of the code, 
+or asking an Engineering Manager to help out. **Don't let a PR sit around because 
+the author and the reviewer can't come to an agreement.**
 
-Next: [What to look for in a code review](looking-for.md)
+Next: [What to Look for in a Code Review](looking-for.md)
