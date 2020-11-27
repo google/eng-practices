@@ -8,7 +8,7 @@ points.
 
 ## Design
 
-The most important thing to cover in a review is the overall design of the CL.
+The most important thing to cover in a review is the overall design of the changelist (CL).
 Do the interactions of various pieces of code in the CL make sense? Does this
 change belong in your codebase, or in a library? Does it integrate well with the
 rest of your system? Is now a good time to add this functionality?
