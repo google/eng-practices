@@ -2,8 +2,8 @@
 
 
 
-When you've sent a CL out for review, it's likely that your reviewer will
-respond with several comments on your CL. Here are some useful things to know
+When you've request review on a PR, it's likely that your reviewer will
+respond with several comments on your PR. Here are some useful things to know
 about handling reviewer comments.
 
 ## Don't Take it Personally {#personal}
@@ -49,11 +49,11 @@ adding code comments does help them.
 
 ## Think for Yourself {#think}
 
-Writing a CL can take a lot of work. It's often really satisfying to finally
-send one out for review, feel like it's done, and be pretty sure that no further
+Writing a PR can take a lot of work. It's often really satisfying to finally
+request review on it, feel like it's done, and be pretty sure that no further
 work is needed. So when a reviewer comes back with comments on things that could
 be improved, it's easy to reflexively think the comments are wrong, the reviewer
-is blocking you unnecessarily, or they should just let you submit the CL.
+is blocking you unnecessarily, or they should just let you merge the PR.
 However, **no matter how certain you are** at this point, take a moment to step
 back and consider if the reviewer is providing valuable feedback that will help
 the codebase and Google. Your first question to yourself should always be, "Is
@@ -66,7 +66,7 @@ If you *have* considered it and you still think you're right, feel free to
 respond with an explanation of why your method of doing things is better for the
 codebase, users, and/or Google. Often, reviewers are actually providing
 *suggestions* and they want you to think for yourself about what's best. You
-might actually know something about the users, codebase, or CL that the reviewer
+might actually know something about the users, codebase, or PR that the reviewer
 doesn't know. So fill them in; give them more context. Usually you can come to
 some consensus between yourself and the reviewer based on technical facts.
 

@@ -43,20 +43,20 @@ insistence on code quality.
 
 A common source of push back is that developers (understandably) want to get
 things done. They don't want to go through another round of review just to get
-this CL in. So they say they will clean something up in a later CL, and thus you
-should LGTM *this* CL now. Some developers are very good about this, and will
-immediately write a follow-up CL that fixes the issue. However, experience shows
-that as more time passes after a developer writes the original CL, the less
+this PR merged. So they say they will clean something up in a later PR, and thus you
+should LGTM *this* PR now. Some developers are very good about this, and will
+immediately write a follow-up PR that fixes the issue. However, experience shows
+that as more time passes after a developer writes the original PR, the less
 likely this clean up is to happen. In fact, usually unless the developer does
-the clean up *immediately* after the present CL, it never happens. This isn't
+the clean up *immediately* after the present PR, it never happens. This isn't
 because developers are irresponsible, but because they have a lot of work to do
 and the cleanup gets lost or forgotten in the press of other work. Thus, it is
-usually best to insist that the developer clean up their CL *now*, before the
-code is in the codebase and "done." Letting people "clean things up later" is a
+usually best to insist that the developer clean up their PR *now*, before the
+code is merged into the codebase and "done." Letting people "clean things up later" is a
 common way for codebases to degenerate.
 
-If a CL introduces new complexity, it must be cleaned up before submission
-unless it is an [emergency](../emergencies.md). If the CL exposes surrounding
+If a PR introduces new complexity, it must be cleaned up before submission
+unless it is an [emergency](../emergencies.md). If the PR exposes surrounding
 problems and they can't be addressed right now, the developer should file a bug
 for the cleanup and assign it to themselves so that it doesn't get lost. They
 can optionally also write a TODO comment in the code that references the filed

@@ -14,7 +14,7 @@ submit an improvement to the codebase, then the codebase never improves. Also,
 if a reviewer makes it very difficult for _any_ change to go in, then developers
 are disincentivized to make improvements in the future.
 
-On the other hand, it is the duty of the reviewer to make sure that each CL is
+On the other hand, it is the duty of the reviewer to make sure that each PR is
 of such a quality that the overall code health of their codebase is not
 decreasing as time goes on. This can be tricky, because often, codebases degrade
 through small decreases in code health over time, especially when a team is
@@ -28,23 +28,23 @@ and all of the other things mentioned in
 
 Thus, we get the following rule as the standard we expect in code reviews:
 
-**In general, reviewers should favor approving a CL once it is in a state where
+**In general, reviewers should favor approving a PR once it is in a state where
 it definitely improves the overall
 code health of the system
-being worked on, even if the CL isn't perfect.**
+being worked on, even if the PR isn't perfect.**
 
 That is _the_ senior principle among all of the code review guidelines.
 
-There are limitations to this, of course. For example, if a CL adds a feature
+There are limitations to this, of course. For example, if a PR adds a feature
 that the reviewer doesn't want in their system, then the reviewer can certainly
 deny approval even if the code is well-designed.
 
 A key point here is that there is no such thing as "perfect" code&mdash;there is
 only _better_ code. Reviewers should not require the author to polish every tiny
-piece of a CL before granting approval. Rather, the reviewer should balance out
+piece of a PR before granting approval. Rather, the reviewer should balance out
 the need to make forward progress compared to the importance of the changes they
 are suggesting. Instead of seeking perfection, what a reviewer should seek is
-_continuous improvement_. A CL that, as a whole, improves the maintainability,
+_continuous improvement_. A PR that, as a whole, improves the maintainability,
 readability, and understandability of the system shouldn't be delayed for days
 or weeks because it isn't "perfect."
 
@@ -53,7 +53,7 @@ could be better, but if it's not very important, prefix it with something like
 "Nit: " to let the author know that it's just a point of polish that they could
 choose to ignore.
 
-Note: Nothing in this document justifies checking in CLs that definitely
+Note: Nothing in this document justifies merging PRs that definitely
 _worsen_ the overall code health of the system. The only time you would do that
 would be in an [emergency](../emergencies.md).
 
@@ -65,7 +65,7 @@ always fine to leave comments that help a developer learn something new. Sharing
 knowledge is part of improving the code health of a system over time. Just keep
 in mind that if your comment is purely educational, but not critical to meeting
 the standards described in this document, prefix it with "Nit: " or otherwise
-indicate that it's not mandatory for the author to resolve it in this CL.
+indicate that it's not mandatory for the author to resolve it in this PR.
 
 ## Principles {#principles}
 
@@ -93,20 +93,20 @@ indicate that it's not mandatory for the author to resolve it in this CL.
 
 In any conflict on a code review, the first step should always be for the
 developer and reviewer to try to come to consensus, based on the contents of
-this document and the other documents in [The CL Author's Guide](../developer/)
+this document and the other documents in [The PR Author's Guide](../developer/)
 and this [Reviewer Guide](index.md).
 
 When coming to consensus becomes especially difficult, it can help to have a
 face-to-face meeting or a video conference between the reviewer and the author, instead of
 just trying to resolve the conflict through code review comments. (If you do
 this, though, make sure to record the results of the discussion as a comment on
-the CL, for future readers.)
+the PR, for future readers.)
 
 If that doesn't resolve the situation, the most common way to resolve it would
 be to escalate. Often the
 escalation path is to a broader team discussion, having a Technical Lead weigh in, asking
 for a decision from a maintainer of the code, or asking an Eng Manager to help
-out. **Don't let a CL sit around because the author and the reviewer can't come
+out. **Don't let a PR sit around because the author and the reviewer can't come
 to an agreement.**
 
 Next: [What to look for in a code review](looking-for.md)
