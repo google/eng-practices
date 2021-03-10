@@ -150,7 +150,7 @@ documentation should also be deleted.
 If documentation is
 missing, ask for it.
 
-## Every Line {#every_line}
+## Every Line {#every-line}
 
 Look at *every* line of code that you have been assigned to review. Some things
 like data files, generated code, or large data structures you can scan over
@@ -189,7 +189,7 @@ health of the system.** Most systems become complex through many small changes
 that add up, so it's important to prevent even small complexities in new
 changes.
 
-## Good Things {#good_things}
+## Good Things {#good-things}
 
 If you see something nice in the CL, tell the developer, especially when they
 addressed one of your comments in a great way. Code reviews often just focus on
