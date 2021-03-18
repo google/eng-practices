@@ -13,5 +13,5 @@ read the entire set.
 -   [How to Write Code Review Comments](comments.md)
 -   [Handling Pushback in Code Reviews](pushback.md)
 
-See also the [CL Author's Guide](../developer/), which gives detailed guidance
-to developers whose CLs are undergoing review.
+See also the [CL Author's Guide](../developer/index.md), which gives detailed
+guidance to developers whose CLs are undergoing review.

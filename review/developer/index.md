@@ -10,5 +10,5 @@ helpful to read the whole set.
 -   [Small CLs](small-cls.md)
 -   [How to Handle Reviewer Comments](handling-comments.md)
 
-See also [How to Do a Code Review](../reviewer/), which gives detailed guidance
-for code reviewers.
+See also [How to Do a Code Review](../reviewer/index.md), which gives detailed
+guidance for code reviewers.
