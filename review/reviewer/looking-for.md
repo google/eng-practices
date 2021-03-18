@@ -152,13 +152,13 @@ missing, ask for it.
 
 ## Every Line {#every-line}
 
-Look at *every* line of code that you have been assigned to review. Some things
-like data files, generated code, or large data structures you can scan over
-sometimes, but don't scan over a human-written class, function, or block of code
-and assume that what's inside of it is okay. Obviously some code deserves more
-careful scrutiny than other code&mdash;that's a judgment call that you have to
-make&mdash;but you should at least be sure that you *understand* what all the
-code is doing.
+In the general case, look at *every* line of code that you have been assigned to
+review. Some things like data files, generated code, or large data structures
+you can scan over sometimes, but don't scan over a human-written class,
+function, or block of code and assume that what's inside of it is okay.
+Obviously some code deserves more careful scrutiny than other code&mdash;that's
+a judgment call that you have to make&mdash;but you should at least be sure that
+you *understand* what all the code is doing.
 
 If it's too hard for you to read the code and this is slowing down the review,
 then you should let the developer know that
@@ -169,9 +169,27 @@ helping future developers understand this code, when you ask the developer to
 clarify it.
 
 If you understand the code but you don't feel qualified to do some part of the
-review, make sure there is a reviewer on the CL who is qualified, particularly
-for complex issues such as security, concurrency, accessibility,
-internationalization, etc.
+review, [make sure there is a reviewer](#every-line-exceptions) on the CL who is
+qualified, particularly for complex issues such as security, concurrency,
+accessibility, internationalization, etc.
+
+### Exceptions {#every-line-exceptions}
+
+What if it doesn't make sense for you to review every line? For example, you are
+one of multiple reviewers on a CL and may be asked:
+
+*   To review only certain files that are part of a larger change.
+*   To review only certain aspects of the CL, such as the high-level design,
+    security implications, etc.
+
+In these cases, note in a comment which parts you reviewed. Prefer giving
+[LGTM with comments](speed.md#lgtm-with-comments)
+.
+
+If you instead wish to grant LGTM after confirming that other reviewers have
+reviewed other parts of the CL, note this explicitly in a comment to set
+expectations. Aim to [respond quickly](speed.md#responses) once the CL has
+reached the desired state.
 
 ## Context
 
