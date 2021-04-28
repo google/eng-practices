@@ -43,7 +43,8 @@ review (if needed) within a single day.
 
 There is one time where the consideration of personal velocity trumps team
 velocity. **If you are in the middle of a focused task, such as writing code,
-don't interrupt yourself to do a code review.** Research has shown that it can
+don't interrupt yourself to do a code review.**
+Research has shown that it can
 take a long time for a developer to get back into a smooth flow of development
 after being interrupted. So interrupting yourself while coding is actually
 _more_ expensive to the team than making another developer wait a bit for a code
