@@ -39,9 +39,11 @@ though.
 
 ## Body is Informative {#informative}
 
-The rest of the description should be informative. It might include a brief
-description of the problem that's being solved, and why this is the best
-approach. If there are any shortcomings to the approach, they should be
+The [first line](#firstline) should be a short, focused summary, while the rest
+of the description should fill in the details and include any supplemental
+information a reader needs to understand the changelist holistically. It might
+include a brief description of the problem that's being solved, and why this is
+the best approach. If there are any shortcomings to the approach, they should be
 mentioned. If relevant, include background information such as bug numbers,
 benchmark results, and links to design documents.
 
