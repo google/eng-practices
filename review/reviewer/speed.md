@@ -7,20 +7,20 @@
 **At Google, we optimize for the speed at which a team of developers can produce
 a product together**, as opposed to optimizing for the speed at which an
 individual developer can write code. The speed of individual development is
-important, it's just not _as_ important as the velocity of the entire team.
+important, it's just not *as* important as the velocity of the entire team.
 
 When code reviews are slow, several things happen:
 
-*   **The velocity of the team as a whole is decreased.** Yes, the individual,
-    who doesn't respond quickly to the review, gets other work done. However,
-    new features and bug fixes for the rest of the team are delayed by days,
-    weeks, or months as each CL waits for review and re-review.
+*   **The velocity of the team as a whole is decreased.** Yes, the individual
+    who doesn't respond quickly to the review gets other work done. However, new
+    features and bug fixes for the rest of the team are delayed by days, weeks,
+    or months as each CL waits for review and re-review.
 *   **Developers start to protest the code review process.** If a reviewer only
     responds every few days, but requests major changes to the CL each time,
     that can be frustrating and difficult for developers. Often, this is
     expressed as complaints about how "strict" the reviewer is being. If the
-    reviewer requests the _same_ substantial changes (changes which really do
-    improve code health) but responds _quickly_ every time the developer makes
+    reviewer requests the *same* substantial changes (changes which really do
+    improve code health), but responds *quickly* every time the developer makes
     an update, the complaints tend to disappear. **Most complaints about the
     code review process are actually resolved by making the process faster.**
 *   **Code health can be impacted.** When reviews are slow, there is increased
@@ -34,7 +34,7 @@ If you are not in the middle of a focused task, **you should do a code review
 shortly after it comes in.**
 
 **One business day is the maximum time it should take to respond** to a code
-review request (i.e. first thing the next morning).
+review request (i.e., first thing the next morning).
 
 Following these guidelines means that a typical CL should get multiple rounds of
 review (if needed) within a single day.
@@ -47,7 +47,7 @@ don't interrupt yourself to do a code review.**
 Research has shown that it can
 take a long time for a developer to get back into a smooth flow of development
 after being interrupted. So interrupting yourself while coding is actually
-_more_ expensive to the team than making another developer wait a bit for a code
+*more* expensive to the team than making another developer wait a bit for a code
 review.
 
 Instead, wait for a break point in your work before you respond to a request for
@@ -56,14 +56,14 @@ returning from a meeting, coming back from the breakroom, etc.
 
 ## Fast Responses {#responses}
 
-When we talk about the speed of code reviews, it is the _response_ time that we
+When we talk about the speed of code reviews, it is the *response* time that we
 are concerned with, as opposed to how long it takes a CL to get through the
 whole review and be submitted. The whole process should also be fast, ideally,
-but **it's even more important for the _individual responses_ to come quickly
+but **it's even more important for the *individual responses* to come quickly
 than it is for the whole process to happen rapidly.**
 
 Even if it sometimes takes a long time to get through the entire review
-_process_, having quick responses from the reviewer throughout the process
+*process*, having quick responses from the reviewer throughout the process
 significantly eases the frustration developers can feel with "slow" code
 reviews.
 
@@ -92,7 +92,7 @@ comments on the CL. This is done when either:
 
 *   The reviewer is confident that the developer will appropriately address all
     the reviewer's remaining comments.
-*   The remaining changes are minor and don't _have_ to be done by the
+*   The remaining changes are minor and don't *have* to be done by the
     developer.
 
 The reviewer should specify which of these options they intend, if it is not
@@ -135,7 +135,7 @@ quickly, in the long run.
 ## Emergencies
 
 There are also [emergencies](../emergencies.md) where CLs must pass through the
-_whole_ review process very quickly, and where the quality guidelines would be
+*whole* review process very quickly, and where the quality guidelines would be
 relaxed. However, please see [What Is An Emergency?](../emergencies.md#what) for
 a description of which situations actually qualify as emergencies and which
 don't.
