@@ -54,7 +54,7 @@ CL.
 If you find an ideal reviewer but they are not available, you should at least CC
 them on your change.
 
-### In-Person Reviews {#in_person}
+### In-Person Reviews (and Pair Programming) {#in_person}
 
 If you pair-programmed a piece of code with somebody who was qualified to do a
 good code review on it, then that code is considered reviewed.
