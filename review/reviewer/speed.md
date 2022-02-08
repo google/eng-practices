@@ -80,9 +80,10 @@ However, individual responses should still ideally be [fast](#fast).
 
 ## Cross-Time-Zone Reviews {#tz}
 
-When dealing with time zone differences, try to get back to the author when they
-are still in the office. If they have already gone home, then try to make sure
-your review is done before they get back to the office the next day.
+When dealing with time zone differences, try to get back to the author while
+they have time to respond before the end of their working hours. If they have
+already finished work for the day, then try to make sure your review is done
+before they start work the next day.
 
 ## LGTM With Comments {#lgtm-with-comments}
 
