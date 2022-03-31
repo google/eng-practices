@@ -47,28 +47,42 @@ future readers of the code won't understand either. Writing a response in the
 code review tool doesn't help future code readers, but clarifying your code or
 adding code comments does help them.
 
-## Think for Yourself {#think}
+## Think Collaboratively {#think}
 
 Writing a CL can take a lot of work. It's often really satisfying to finally
 send one out for review, feel like it's done, and be pretty sure that no further
-work is needed. So when a reviewer comes back with comments on things that could
-be improved, it's easy to reflexively think the comments are wrong, the reviewer
-is blocking you unnecessarily, or they should just let you submit the CL.
-However, **no matter how certain you are** at this point, take a moment to step
-back and consider if the reviewer is providing valuable feedback that will help
-the codebase and Google. Your first question to yourself should always be, "Is
-the reviewer correct?"
+work is needed. It can be frustrating to receive comments asking for changes,
+especially if you don't agree with them.
 
-If you can't answer that question, it's likely the reviewer needs to clarify
-their comments.
+At times like this, take a moment to step back and consider if the reviewer is
+providing valuable feedback that will help the codebase and Google. Your first
+question to yourself should always be, "Do I understand what the reviewer is
+asking for?"
 
-If you *have* considered it and you still think you're right, feel free to
-respond with an explanation of why your method of doing things is better for the
-codebase, users, and/or Google. Often, reviewers are actually providing
-*suggestions* and they want you to think for yourself about what's best. You
-might actually know something about the users, codebase, or CL that the reviewer
-doesn't know. So fill them in; give them more context. Usually you can come to
-some consensus between yourself and the reviewer based on technical facts.
+If you can't answer that question, ask the reviewer for clarification.
+
+And then, if you understand the comments but disagree with them, it's important
+to think collaboratively, not combatively or defensively:
+
+Bad: "No, I'm not going to do that."
+
+Good: "I went with X because of [these pros/cons] with [these
+tradeoffs].
+My understanding is that using Y would be worse because of [these reasons]. Are
+you suggesting that Y better serves the original tradeoffs, that we should weigh
+the tradeoffs differently, or something else?"
+
+Remember,
+**[courtesy and respect](https://chromium.googlesource.com/chromium/src/+/master/docs/cr_respect.md)
+should always be a first priority**. If you disagree with the reviewer, find
+ways to collaborate: ask for clarifications, discuss pros/cons, and provide
+explanations of why your method of doing things is better for the codebase,
+users, and/or Google.
+
+Sometimes, you might know something about the users, codebase, or CL that the
+reviewer doesn't know. [Fix the code](#code) where appropriate, and engage your
+reviewer in discussion, including giving them more context. Usually you can come
+to some consensus between yourself and the reviewer based on technical facts.
 
 ## Resolving Conflicts {#conflicts}
 
