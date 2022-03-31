@@ -170,8 +170,8 @@ clarify it.
 
 If you understand the code but you don't feel qualified to do some part of the
 review, [make sure there is a reviewer](#every-line-exceptions) on the CL who is
-qualified, particularly for complex issues such as security, concurrency,
-accessibility, internationalization, etc.
+qualified, particularly for complex issues such as privacy, security,
+concurrency, accessibility, internationalization, etc.
 
 ### Exceptions {#every-line-exceptions}
 
@@ -180,7 +180,7 @@ one of multiple reviewers on a CL and may be asked:
 
 *   To review only certain files that are part of a larger change.
 *   To review only certain aspects of the CL, such as the high-level design,
-    security implications, etc.
+    privacy or security implications, etc.
 
 In these cases, note in a comment which parts you reviewed. Prefer giving
 [LGTM with comments](speed.md#lgtm-with-comments)
