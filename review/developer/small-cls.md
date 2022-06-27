@@ -122,14 +122,14 @@ for the new behavior. Pure refactoring CLs (that aren't intended to change
 behavior) should also be covered by tests; ideally, these tests already exist,
 but if they don't, you should add them.
 
-_Independent_ test modifications can go into separate CLs first, similar to the
+*Independent* test modifications can go into separate CLs first, similar to the
 [refactorings guidelines](#refactoring). That includes:
 
 *   Validating pre-existing, submitted code with new tests.
     *   Ensures that important logic is covered by tests.
     *   Increases confidence in subsequent refactorings on affected code. For
         example, if you want to refactor code that isn't already covered by
-        tests, submitting test CLs _before_ submitting refactoring CLs can
+        tests, submitting test CLs *before* submitting refactoring CLs can
         validate that the tested behavior is unchanged before and after the
         refactoring.
 *   Refactoring the test code (e.g. introduce helper functions).
