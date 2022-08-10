@@ -22,7 +22,7 @@ documents that are a part of this guide:
 
 ## What Do Code Reviewers Look For? {#look_for}
 
-Code reviews should look at:
+Code reviewers should look at:
 
 -   **Design**: Is the code well-designed and appropriate for your system?
 -   **Functionality**: Does the code behave as the author likely intended? Is
