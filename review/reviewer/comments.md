@@ -62,6 +62,27 @@ exemplary test coverage, or you as the reviewer learned something from the CL.
 Just as with all comments, include [why](#why) you liked something, further
 encouraging the developer to continue good practices.
 
+## Label comment severity {#label-comment-severity}
+
+Consider labeling the severity of your comments, differentiating required
+changes from guidelines or suggestions.
+
+Here are some examples:
+
+> Nit: This is a minor thing. Technically you should do it, but it won’t hugely
+> impact things.
+>
+> Optional (or Consider): I think this may be a good idea, but it’s not strictly
+> required.
+>
+> FYI: I don’t expect you to do this in this CL, but you may find this
+> interesting to think about for the future.
+
+This makes review intent explicit and helps authors prioritize the importance of
+various comments. It also helps avoid misunderstandings; for example, without
+comment labels, authors may interpret all comments as mandatory, even if some
+comments are merely intended to be informational or optional.
+
 ## Accepting Explanations {#explanations}
 
 If you ask a developer to explain a piece of code that you don't understand,
