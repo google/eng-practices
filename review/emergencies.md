@@ -1,9 +1,8 @@
 # Emergencies
 
 Sometimes there are emergency PRs that must pass through the entire code review
-process as quickly as
-possible.
-
+process as quickly as possible. In an emergency, you can merge a PR with just
+one reviewer, ideally a subject matter expert.
 
 
 ## What Is An Emergency? {#what}
