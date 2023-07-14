@@ -99,6 +99,47 @@ configuration or experiment that uses that code; this is easier to roll back
 too, if necessary, as configuration/experiment files are sometimes pushed to
 production faster than code changes.
 
+### Splitting Horizontally {#splitting-horizontally}
+
+Consider creating shared code or stubs that help isolate changes between layers
+of the tech stack. This not only helps expedite development but also encourages
+abstraction between layers.
+
+For example: You created a calculator app with client, API, service, and data
+model layers. A shared proto signature can abstract the service and data model
+layers from each other. Similarly, an API stub can split the implementation of
+client code from service code and enable them to move forward independently.
+Similar ideas can also be applied to more granular function or class level
+abstractions.
+
+### Splitting Vertically {#splitting-vertically}
+
+Orthogonal to the layered, horizontal approach, you can instead break down your
+code into smaller, full-stack, vertical features. Each of these features can be
+independent parallel implementation tracks. This enables some tracks to move
+forward while other tracks are awaiting review or feedback.
+
+Back to our calculator example from
+[Splitting Horizontally](#splitting-horizontally). You now want to support new
+operators, like multiplication and division. You could split this up by
+implementing multiplication and division as separate verticals or sub-features,
+even though they may have some overlap such as shared button styling or shared
+validation logic.
+
+### Splitting Horizontally & Vertically {#splitting-grid}
+
+To take this a step further, you could combine these approaches and chart out an
+implementation plan like this, where each cell is its own standalone CL.
+Starting from the model (at the bottom) and working up to the client:
+
+| Layer   | Feature: Multiplication   | Feature: Division               |
+| ------- | ------------------------- | ------------------------------- |
+| Client  | Add button                | Add button                      |
+| API     | Add endpoint              | Add endpoint                    |
+| Service | Implement transformations | Share transformation logic with |
+:         :                           : multiplication                  :
+| Model   | Add proto definition      | Add proto definition            |
+
 ## Separate Out Refactorings {#refactoring}
 
 It's usually best to do refactorings in a separate CL from feature changes or
