@@ -83,6 +83,34 @@ There are a few situations in which large changes aren't as bad:
     that they really do want the change. These CLs can be larger, although some
     of the caveats from above (such as merging and testing) still apply.
 
+## Writing Small CLs Efficiently {#efficiently}
+
+If you write a small CL and then you wait for your reviewer to approve it before
+you write your next CL, then you're going to waste a lot of time. So you want to
+find some way to work that won't block you while you're waiting for review. This
+could involve having multiple projects to work on simultaneously, finding
+reviewers who agree to be immediately available, doing in-person reviews, pair
+programming, or splitting your CLs in a way that allows you to continue working
+immediately.
+
+## Splitting CLs {#splitting}
+
+When starting work that will have multiple CLs with potential dependencies among
+each other, it's often useful to think about how to split and organize those CLs
+at a high level before diving into coding.
+
+Besides making things easier for you as an author to manage and organize your
+CLs, it also makes things easier for your code reviewers, which in turn makes
+your code reviews more efficient.
+
+Here are some strategies for splitting work into different CLs.
+
+### Stacking Multiple Changes on Top of Each Other {#stacking}
+
+One way to split up a CL without blocking yourself is to write one small CL,
+send it off for review, and then immediately start writing another CL *based* on
+the first CL. Most version control systems allow you to do this somehow.
+
 ### Splitting by Files {#splitting-files}
 
 Another way to split up a CL is by groupings of files that will require
