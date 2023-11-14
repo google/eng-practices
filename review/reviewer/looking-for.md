@@ -222,7 +222,7 @@ In doing a code review, you should make sure that:
 -   The code is well-designed.
 -   The functionality is good for the users of the code.
 -   Any UI changes are sensible and look good.
--   Any parallel programming is done safely.
+-   Any concurrent programming is done safely.
 -   The code isn't more complex than it needs to be.
 -   The developer isn't implementing things they *might* need in the future but
     don't know they need now.
