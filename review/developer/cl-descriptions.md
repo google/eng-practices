@@ -77,7 +77,7 @@ Here are some examples of good descriptions.
 
 Example:
 
-> rpc: remove size limit on RPC server message freelist.
+> RPC: Remove size limit on RPC server message freelist.
 >
 > Servers like FizzBuzz have very large messages and would benefit from reuse.
 > Make the freelist larger, and add a goroutine that frees the freelist entries
