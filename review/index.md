@@ -1,4 +1,3 @@
-# Code Review Developer Guide
 
 ## Introduction {#intro}
 
