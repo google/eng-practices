@@ -186,6 +186,8 @@ CLs should include related test code. Remember that [smallness](#what_is_small)
 here refers the conceptual idea that the CL should be focused and is not a
 simplistic function on line count.
 
+Tests are expected for all Google changes.
+
 A CL that adds or changes logic should be accompanied by new or updated tests
 for the new behavior. Pure refactoring CLs (that aren't intended to change
 behavior) should also be covered by tests; ideally, these tests already exist,
