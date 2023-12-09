@@ -1,4 +1,4 @@
-# How to do a code review
+# How to do a code review.
 
 The pages in this section contain recommendations on the best way to do code
 reviews, based on long experience. All together they represent one complete
