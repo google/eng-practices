@@ -89,19 +89,21 @@ before they start work the next day.
 
 In order to speed up code reviews, there are certain situations in which a
 reviewer should give LGTM/Approval even though they are also leaving unresolved
-comments on the CL. This is done when either:
+comments on the CL. This should be done when at least one of the following
+applies:
 
 *   The reviewer is confident that the developer will appropriately address all
     the reviewer's remaining comments.
-*   The remaining changes are minor and don't *have* to be done by the
-    developer.
+*   The comments don't *have* to be addressed by the developer.
+*   The suggestions are minor, e.g. sort imports, fix a nearby typo, apply a
+    suggested fix, remove an unused dep, etc.
 
 The reviewer should specify which of these options they intend, if it is not
 otherwise clear.
 
 LGTM With Comments is especially worth considering when the developer and
 reviewer are in different time zones and otherwise the developer would be
-waiting for a whole day just to get "LGTM, Approval."
+waiting for a whole day just to get "LGTM, Approval".
 
 ## Large CLs {#large}
 
