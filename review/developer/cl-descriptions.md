@@ -13,7 +13,9 @@ relevance but without the specifics handy. If all the important information is
 in the code and not the description, it's going to be a lot harder for them to
 locate your CL.
 
-## First Line {#firstline}
+## First Line {#first-line}
+
+<a id="firstline"></a> <!-- Keep previous permalink to avoid breaking old links. -->
 
 *   Short summary of what is being done.
 *   Complete sentence, written as though it was an order.
@@ -39,7 +41,7 @@ though.
 
 ## Body is Informative {#informative}
 
-The [first line](#firstline) should be a short, focused summary, while the rest
+The [first line](#first-line) should be a short, focused summary, while the rest
 of the description should fill in the details and include any supplemental
 information a reader needs to understand the changelist holistically. It might
 include a brief description of the problem that's being solved, and why this is
@@ -73,7 +75,7 @@ enough useful information.
 
 Here are some examples of good descriptions.
 
-### Functionality change
+### Functionality change {#functionality-change}
 
 Example:
 
@@ -88,7 +90,7 @@ The first few words describe what the CL actually does. The rest of the
 description talks about the problem being solved, why this is a good solution,
 and a bit more information about the specific implementation.
 
-### Refactoring
+### Refactoring {#refactoring}
 
 Example:
 
@@ -141,7 +143,7 @@ For example:
 Using tags is optional.
 
 When adding tags, consider whether they should be in the [body](#informative) of
-the CL description or the [first line](#firstline). Limit the usage of tags in
+the CL description or the [first line](#first-line). Limit the usage of tags in
 the first line, as this can obscure the content.
 
 Examples with and without tags:

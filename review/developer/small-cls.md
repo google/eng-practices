@@ -39,7 +39,9 @@ changes. It can be a lot of work to split up a change after you've already
 written it, or require lots of time arguing about why the reviewer should accept
 your large change. It's easier to just write small CLs in the first place.
 
-## What is Small? {#what_is_small}
+## What is Small? {#what-is-small}
+
+<a id="what_is_small"></a> <!-- Keep previous permalink to avoid breaking old links. -->
 
 In general, the right size for a CL is **one self-contained change**. This means
 that:
@@ -72,7 +74,9 @@ seems like an acceptably-sized CL to you might be overwhelming to your reviewer.
 When in doubt, write CLs that are smaller than you think you need to write.
 Reviewers rarely complain about getting CLs that are too small.
 
-## When are Large CLs Okay? {#large_okay}
+## When are Large CLs Okay? {#large-okay}
+
+<a id="large_okay"></a> <!-- Keep previous permalink to avoid breaking old links. -->
 
 There are a few situations in which large changes aren't as bad:
 
@@ -180,9 +184,11 @@ feature change or bug fix CL, though. It's up to the judgment of developers and
 reviewers to decide when a refactoring is so large that it will make the review
 more difficult if included in your current CL.
 
-## Keep related test code in the same CL {#test_code}
+## Keep related test code in the same CL {#test-code}
 
-CLs should include related test code. Remember that [smallness](#what_is_small)
+<a id="test_code"></a> <!-- Keep previous permalink to avoid breaking old links. -->
+
+CLs should include related test code. Remember that [smallness](#what-is-small)
 here refers the conceptual idea that the CL should be focused and is not a
 simplistic function on line count.
 
