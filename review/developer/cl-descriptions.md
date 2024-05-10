@@ -2,16 +2,34 @@
 
 
 
-A CL description is a public record of **what** change is being made and **why**
-it was made. It will become a permanent part of our version control history, and
-will possibly be read by hundreds of people other than your reviewers over the
-years.
+A CL description is a public record of change, and it is important that it
+communicates:
+
+1.  **What** change is being made? This should summarize the major changes such
+    that readers have a sense of what is being changed without needing to read
+    the entire CL.
+
+1.  **Why** are these changes being made? What contexts did you have as an
+    author when making this change? Were there decisions you made that aren't
+    reflected in the source code? etc.
+
+The CL description will become a permanent part of our version control history
+and will possibly be read by hundreds of people over the years.
 
 Future developers will search for your CL based on its description. Someone in
 the future might be looking for your change because of a faint memory of its
 relevance but without the specifics handy. If all the important information is
 in the code and not the description, it's going to be a lot harder for them to
 locate your CL.
+
+And then, after they find the CL, will they be able to understand *why* the
+change was made? Reading source code may reveal what the software is doing but
+it may not reveal why it exists, which can make it harder for future developers
+to know whether they can move
+[Chesterton's fence](https://abseil.io/resources/swe-book/html/ch03.html#understand_context).
+
+A well-written CL description will help those future engineers -- sometimes,
+including yourself!
 
 ## First Line {#first-line}
 
