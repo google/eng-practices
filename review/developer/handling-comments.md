@@ -64,13 +64,16 @@ If you can't answer that question, ask the reviewer for clarification.
 And then, if you understand the comments but disagree with them, it's important
 to think collaboratively, not combatively or defensively:
 
+```txt {.bad}
 Bad: "No, I'm not going to do that."
+```
 
-Good: "I went with X because of [these pros/cons] with [these
-tradeoffs].
-My understanding is that using Y would be worse because of [these reasons]. Are
-you suggesting that Y better serves the original tradeoffs, that we should weigh
-the tradeoffs differently, or something else?"
+```txt {.good}
+Good: "I went with X because of [these pros/cons] with [these tradeoffs]
+My understanding is that using Y would be worse because of [these reasons].
+Are you suggesting that Y better serves the original tradeoffs, that we should
+weigh the tradeoffs differently, or something else?"
+```
 
 Remember,
 **[courtesy and respect](https://chromium.googlesource.com/chromium/src/+/master/docs/cr_respect.md)
