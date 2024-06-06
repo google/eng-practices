@@ -10,8 +10,8 @@ Currently this contains the following documents:
 
 *   [Google's Code Review Guidelines](review/index.md), which are actually two
     separate sets of documents:
-    *   [The Code Reviewer's Guide](review/reviewer/index.md)
     *   [The Change Author's Guide](review/developer/index.md)
+    *   [The Code Reviewer's Guide](review/reviewer/index.md)
 
 ## Terminology
 
