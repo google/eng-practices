@@ -3,7 +3,7 @@
 
 
 The primary purpose of code review is to make sure that the overall
-code health of Tyemill's code
+code health of Syntax's code
 bases is improving over time. All of the tools and processes of code review are
 designed to this end.
 

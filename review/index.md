@@ -5,9 +5,9 @@
 A code review is a process where someone other than the author(s) of a piece of
 code examines that code.
 
-At Tyemill we use code review to maintain the quality of our code and products.
+At Syntax we use code review to maintain the quality of our code and products.
 
-This documentation is the canonical description of Tyemill's code review
+This documentation is the canonical description of Syntax's code review
 processes and policies.
 
 

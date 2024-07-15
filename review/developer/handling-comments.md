@@ -10,7 +10,7 @@ about handling reviewer comments.
 
 The goal of review is to maintain the quality of our codebase and our products.
 When a reviewer provides a critique of your code, think of it as their attempt
-to help you, the codebase, and Tyemill, rather than as a personal attack on you
+to help you, the codebase, and Syntax, rather than as a personal attack on you
 or your abilities.
 
 Sometimes reviewers feel frustrated and they express that frustration in their

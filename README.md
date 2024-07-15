@@ -1,11 +1,11 @@
-# Tyemill Code Review Process Docs
+# Syntax Code Review Process Docs
 
-These documents represent Tyemill's collective experience of various
+These documents represent Syntax's collective experience of various
 best practices that we have developed over time.
 
 Currently this contains the following documents:
 
-*   [Tyemill's Code Review Guidelines](review/index.md), which are actually two
+*   [Syntax's Code Review Guidelines](review/index.md), which are actually two
     separate sets of documents:
     *   [The Code Reviewer's Guide](review/reviewer/index.md)
     *   [The Change Author's Guide](review/developer/index.md)
@@ -27,7 +27,7 @@ Source: https://google.github.io/eng-practices/
 
 Original Author: [Google Inc](https://opensource.google)
 
-Modifications: Modify wording and structure to apply to Tyemill specific processes.
+Modifications: Modify wording and structure to apply to Syntax specific processes.
 
 ## License
 
