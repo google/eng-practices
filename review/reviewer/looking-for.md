@@ -26,10 +26,9 @@ thinking about edge cases, looking for concurrency problems, trying to think
 like a user, and making sure that there are no bugs that you see just by reading
 the code.
 
-You *can* validate the CL if you want—the time when it's most important for a
+You *can* validate the CL if you want to certify that the code matches the acceptance criteria and user necessities. The time when it's most important for a
 reviewer to check a CL's behavior is when it has a user-facing impact, such as a
-**UI change**. It's hard to understand how some changes will impact a user when
-you're just reading the code. For changes like that, you can have the developer
+**UI change**. It's hard to understand how some changes will impact a user or if the technical solution fulfills all the business necessities when you're just reading the code. For changes like that, you can have the developer
 give you a demo of the functionality if it's too inconvenient to patch in the CL
 and try it yourself.
 
