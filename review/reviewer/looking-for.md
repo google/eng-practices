@@ -34,7 +34,7 @@ give you a demo of the functionality if it's too inconvenient to patch in the CL
 and try it yourself.
 
 Another time when it's particularly important to think about functionality
-during a code review is if there is some sort of **parallel programming** going
+during a code review is if there is some sort of **concurrent programming** going
 on in the CL that could theoretically cause deadlocks or race conditions. These
 sorts of issues are very hard to detect by just running the code and usually
 need somebody (both the developer and the reviewer) to think through them
@@ -222,7 +222,7 @@ In doing a code review, you should make sure that:
 -   The code is well-designed.
 -   The functionality is good for the users of the code.
 -   Any UI changes are sensible and look good.
--   Any parallel programming is done safely.
+-   Any concurrent programming is done safely.
 -   The code isn't more complex than it needs to be.
 -   The developer isn't implementing things they *might* need in the future but
     don't know they need now.
