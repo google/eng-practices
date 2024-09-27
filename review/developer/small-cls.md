@@ -31,6 +31,11 @@ Small, simple CLs are:
     updated between the initial CL submission and a rollback CL, complicating
     the rollback (the intermediate CLs will probably need to be rolled back
     too).
+-   **Cleaner in the version control history.** A small CL is easier to
+    understand when reviewing code changes in the version control history (i.e.
+    doing code archaeology), for example when trying to figure out when and/or
+    how some code, configuration or documentation was created, modified or
+    deleted, or when and/or how a particular bug was created or fixed.
 
 Note that **reviewers have discretion to reject your change outright for the
 sole reason of it being too large.** Usually they will thank you for your
