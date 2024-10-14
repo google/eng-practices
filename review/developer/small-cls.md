@@ -164,13 +164,13 @@ To take this a step further, you could combine these approaches and chart out an
 implementation plan like this, where each cell is its own standalone CL.
 Starting from the model (at the bottom) and working up to the client:
 
-| Layer   | Feature: Multiplication   | Feature: Division               |
-| ------- | ------------------------- | ------------------------------- |
-| Client  | Add button                | Add button                      |
-| API     | Add endpoint              | Add endpoint                    |
-| Service | Implement transformations | Share transformation logic with |
-:         :                           : multiplication                  :
-| Model   | Add proto definition      | Add proto definition            |
+| Layer   | Feature: Multiplication   | Feature: Division                              |
+| ------- | ------------------------- | ---------------------------------------------- |
+| Client  | Add button                | Add button                                     |
+| API     | Add endpoint              | Add endpoint                                   |
+| Service | Implement transformations | Share transformation logic with                |
+| Service | Implement transformations | Share transformation logic with multiplication |
+| Model   | Add proto definition      | Add proto definition                           |
 
 ## Separate Out Refactorings {#refactoring}
 
