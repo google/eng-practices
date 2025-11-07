@@ -64,11 +64,11 @@ If you can't answer that question, ask the reviewer for clarification.
 And then, if you understand the comments but disagree with them, it's important
 to think collaboratively, not combatively or defensively:
 
-```txt {.bad}
+```txt
 Bad: "No, I'm not going to do that."
 ```
 
-```txt {.good}
+```txt
 Good: "I went with X because of [these pros/cons] with [these tradeoffs]
 My understanding is that using Y would be worse because of [these reasons].
 Are you suggesting that Y better serves the original tradeoffs, that we should
